@@ -736,6 +736,12 @@ footer .copy p {
   display: flex;
   gap: 8px;
 }
+@media (max-width: 768px) {
+  footer .copy p {
+    display: block;
+    text-align: center;
+  }
+}
 footer .copy a {
   display: flex;
   justify-content: center;

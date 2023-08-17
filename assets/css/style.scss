@@ -711,6 +711,10 @@ footer {
       margin: 0;
       display: flex;
       gap: 8px;
+      @media (max-width: 768px) {
+        display: block;
+        text-align: center;
+      }
     }
     a {
       display: flex;
