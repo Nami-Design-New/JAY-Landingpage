@@ -1,0 +1,393 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable= no shrink-to-fit= no">
+    <title></title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/fav.svg">
+    <!-- required css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="header">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.svg"></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li class="nav-link">
+                        <a class="home active" href="#home">الرئيسية</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="how-it-works" href="#how-it-works">كيف يعمل</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="features" href="#features">المميزات</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="contact-us" href="#contact-us">تواصل معنا</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btns d-flex gap-3">
+                <a class="btn" href="#">الدعم والمساعدة</a>
+                <button class="btn toogler">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- main-wrapper -->
+    <main class="content">
+        <!-- hero section -->
+        <section id="home" class="hero-section sec">
+            <span class="clipy">
+                <img src="assets/images/thumLocation.svg" alt="">
+                <div class="circ"></div>
+            </span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 content-wrap">
+                        <h1>حمل التطبيق، ابدأ القيادة واكسب المال!</h1>
+                        <p>قم بتنزيل تطبيق جاى من متجر Google Play او App Store ، قم بإنشاء
+                            حساب قد سيارتك بنفسك. قم بتوصيل العميل و
+                            إربح المزيد من المال.</p>
+                        <div class="btns">
+                            <a href="#!">
+                                <img src="assets/images/app-store.svg" alt="google-play">
+                            </a>
+                            <a href="#!">
+                                <img src="assets/images/google-play.svg" alt="app-store">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 img-wrap">
+                        <div class="mockup">
+                            <img src="assets/images/mouckup1.svg" alt="mockup1">
+                            <img src="assets/images/mouckup2.svg" alt="mockup2">
+                            <img src="assets/images/mouckup3.svg" alt="mockup3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- statics -->
+        <section class="statics">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-6 p-lg-3 p-2">
+                        <div class="statics-card">
+                            <img src="assets/images/downloads.svg" alt="downloads">
+                            <h4><span class="num" data-goal="80">0</span>k+</h4>
+                            <p>التحميلات</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6 p-lg-3 p-2">
+                        <div class="statics-card">
+                            <img src="assets/images/star.svg" alt="star">
+                            <h4><span class="num" data-goal="63">0</span>k+</h4>
+                            <p>5 نجوم</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6 p-lg-3 p-2">
+                        <div class="statics-card">
+                            <img src="assets/images/driver.svg" alt="driver">
+                            <h4><span class="num" data-goal="7">0</span>k+</h4>
+                            <p>سائق</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6 p-lg-3 p-2">
+                        <div class="statics-card">
+                            <img src="assets/images/completion.svg" alt="Ride Completion">
+                            <h4><span class="num" data-goal="120">0</span>k+</h4>
+                            <p>رحلة مكتمل</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- how it works setion -->
+        <section id="how-it-works" class="how sec">
+            <h2 class="text-center title">كيف يعمل تطبيق جاي</h2>
+            <p class="text-center sub-title">
+                قم بتنزيل تطبيق جاي من متجر بلاى ، وأنشئ حسابًا باستخدام سيارتك ، وقم بالقيادة بنفسك. احصل على
+                توصيلة واكسب المزيد من المال.
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 taps-wrapper">
+                        <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
+                            <!-- driver-tap -->
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-driver-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-driver" type="button" role="tab" aria-controls="pills-driver"
+                                    aria-selected="true">
+                                    سائق
+                                </button>
+                            </li>
+                            <!-- passenger-tap -->
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-passenger-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-passenger" type="button" role="tab"
+                                    aria-controls="pills-passenger" aria-selected="false">
+                                    راكب
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <!-- driver-tap-content -->
+                            <div class="tab-pane fade show active" id="pills-driver" role="tabpanel"
+                                aria-labelledby="pills-driver-tab">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6 step">
+                                            <div class="icon">
+                                                <img src="assets/images/envelope.svg" alt="icon">
+                                            </div>
+                                            <h6>احصل على عرض</h6>
+                                            <p>أنت تحدد التفاصيل الخاصة بك. ما عليك سوى إدخال معلوماتك وإعلامنا بنوعها.
+                                            </p>
+                                        </div>
+                                        <div class="col-6 step">
+                                            <div class="icon">
+                                                <img src="assets/images/accept-offer.svg" alt="icon">
+                                            </div>
+                                            <h6> اقبل العرض </h6>
+                                            <p>
+                                                سيساعدك تطبيق جاي في التقييمات ومواقع المرائب.
+                                            </p>
+                                        </div>
+                                        <div class="col-6 step mt-5">
+                                            <div class="icon">
+                                                <img src="assets/images/StartTrip.svg" alt="icon">
+                                            </div>
+                                            <h6>ابدأ الرحلة</h6>
+                                            <p>يعود الأمر إليك فقط لاختيار المرآب الخاص بك والخيار الذي يناسبك.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- passenger-tap-content -->
+                            <div class="tab-pane fade" id="pills-passenger" role="tabpanel"
+                                aria-labelledby="pills-passenger-tab">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6 step">
+                                            <div class="icon">
+                                                1
+                                            </div>
+                                            <h6> طلب رحلة </h6>
+                                            <p>
+                                                اختر موقع الالتقاء والتوصيل ونوع الرحلة التي تلبي احتياجاتك
+                                            </p>
+                                        </div>
+                                        <div class="col-6 step">
+                                            <div class="icon">
+                                                2
+                                            </div>
+                                            <h6> تطابق مع سائق </h6>
+                                            <p>
+                                                سيطابقك جاي مع أقرب سائق متاح
+                                            </p>
+                                        </div>
+                                        <div class="col-6 step mt-5">
+                                            <div class="icon">
+                                                3
+                                            </div>
+                                            <h6>استمتع برحلتك</h6>
+                                            <p>
+                                                قابل سائقك بمساعدة خدمات GPS في الوقت الفعلي واستمتع برحلتك!
+                                            </p>
+                                        </div>
+                                        <div class="col-6 step mt-5">
+                                            <div class="icon">
+                                                4
+                                            </div>
+                                            <h6> الدفع والتقييم </h6>
+                                            <p>ادفع نقدًا أو ببطاقة وقم بتقييم سائقك</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex align-items-center justify-content-end imgs-wrap">
+                        <div class="circle">
+                            <img class="legend" src="assets/images/legend.svg" alt="">
+                            <img class="img1" src="assets/images/mouckup4.svg" alt="mouckup4">
+                            <img class="img2" src="assets/images/mouckup5.svg" alt="mouckup5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- features section -->
+        <section class="features sec" id="features">
+            <span class="toop">
+                <img src="assets/images/square-animate.svg" alt="">
+            </span>
+            <span class="bottom">
+                <img src="assets/images/square-animate.svg" alt="">
+            </span>
+            <h2 class="text-center title">مميزات التطبيق</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 p-3">
+                        <div class="feature-card">
+                            <div class="icon">
+                                <img src="assets/images/low-price.svg" alt="icon">
+                            </div>
+                            <h4>سعر منخفض</h4>
+                            <p>
+                                جرب نفس المستوى من الموثوقية والأمان والراحة التي تتوقعها من خدماتنا ، وكل ذلك بسعر أقل.
+                                لقد صممنا هذا الخيار لمن يتطلعون إلى الادخار دون التضحية بجودة رحلتهم.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 p-3">
+                        <div class="feature-card">
+                            <div class="icon">
+                                <img src="assets/images/easy-pay.svg" alt="icon">
+                            </div>
+                            <h4>سهولة الدفع</h4>
+                            <p>
+                                جرب المدفوعات السهلة مع ميزة EasyPay الخاصة بنا. اربط طريقة الدفع المفضلة لديك واستمتع
+                                بالمعاملات التلقائية والآمنة لكل رحلة. لا مزيد من المتاعب - فقط انقر وانطلق.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 p-3">
+                        <div class="feature-card">
+                            <div class="icon">
+                                <img src="assets/images/skilled-drivers.svg" alt="icon">
+                            </div>
+                            <h4> سائقين مهرة </h4>
+                            <p>
+                                راحتك أمر بالغ الأهمية. يعطي سائقونا المهرة الأولوية لسلامتك ورفاهيتك طوال الرحلة. بفضل
+                                سلوكهم المهذب والالتزام بقواعد الطريق ، يمكنك الاسترخاء والاستمتاع برحلتك.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact-us section -->
+        <section class="contact-us sec" id="contact-us">
+            <img src="assets/images/Location.svg" alt="">
+            <h2 class="text-center title">فريق دعم كامل فى خدمتك لا تتردد فى الإستفسار عن اى شىء</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 contact-info">
+                        <h3>معلومات التواصل</h3>
+                        <div class="info">
+                            <div class="icon">
+                                <i class="fa-sharp fa-solid fa-phone"></i>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center">
+                                <h6>رقم التليفون</h6>
+                                <a href="tel:+096661444545">096661444545</a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="icon">
+                                <i class="fa-sharp fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center">
+                                <h6>البريد الالكترونى</h6>
+                                <a href="mailto:info@gay.com">info@gay.com</a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="icon">
+                                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center">
+                                <h6>مقر الشركة</h6>
+                                <a href="https://goo.gl/maps/7sVwcc3ci7wT75EPA">الرياض - المملكة العربية السعودية</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <form action="">
+                            <input type="text" placeholder="اسمك كاملا" name="name" id="name">
+                            <input type="email" placeholder="البريد الالكترونى" name="email" id="email">
+                            <input type="text" placeholder="الموضوع" name="subject" id="subject">
+                            <textarea name="message" id="message" placeholder="رسالتك" rows="4"></textarea>
+                            <button type="submit">ارسال</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="download-app">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-12">
+                        <h3 class="text-center">ماذا تنتظر لتحظى بتلك التجربة السعيده؟</h3>
+                        <p>انضم إلى مئات الآلاف من المستخدمين السعداء.</p>
+                        <div class="btns">
+                            <a href="#!">
+                                <img src="assets/images/app-store.svg" alt="google-play">
+                            </a>
+                            <a href="#!">
+                                <img src="assets/images/google-play.svg" alt="app-store">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 flex-lg-row flex-column  d-flex justify-content-between align-items-center footer">
+                    <a class="logo" href="index.html">
+                        <img src="assets/images/logo2.svg" alt="logo">
+                    </a>
+                    <ul class="social">
+                        <li>
+                            <a href="#!">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copy">
+                        <p>حقوق النشر © 2023 جميع الحقوق محفوظة لدى
+                            <a href="https://nami-tec.com">
+                                Nami <img src="assets/images/Subtract.svg" alt="">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/app.js"></script>
+
+</html>
