@@ -187,6 +187,12 @@ a {
   top: 30px;
   animation: swing 5s linear infinite;
 }
+@media (max-width: 450px) {
+  .content .hero-section .clipy img {
+    top: 385px;
+    transform: rotate(26deg);
+  }
+}
 .content .hero-section .clipy .circ {
   position: absolute;
   right: 10%;
@@ -198,7 +204,7 @@ a {
 }
 @media (max-width: 576px) {
   .content .hero-section .clipy .circ {
-    top: 215px;
+    display: none;
   }
 }
 @keyframes swing {

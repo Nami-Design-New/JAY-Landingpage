@@ -197,6 +197,10 @@ a {
         left: 30px;
         top: 30px;
         animation: swing 5s linear infinite;
+        @media (max-width: 450px) {
+          top: 385px;
+          transform: rotate(26deg);
+        }
       }
       .circ {
         position: absolute;
@@ -207,7 +211,7 @@ a {
         border: 15px solid $white-color;
         animation: rotate 10s linear infinite;
         @media (max-width: 576px) {
-          top: 215px;
+          display: none;
         }
       }
     }
