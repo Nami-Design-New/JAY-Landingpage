@@ -392,13 +392,13 @@ a {
       }
     }
     .circle {
-     width: 500px;
+      width: 500px;
       aspect-ratio: 1/1;
       background: $main-color;
       border-radius: 50%;
       position: relative;
       @media (max-width: 450px) {
-      width: 350px;
+        width: 350px;
       }
       .img1 {
         position: absolute;
@@ -549,6 +549,7 @@ a {
   .contact-us {
     padding: 60px 0;
     position: relative;
+    overflow-x: hidden;
     img {
       width: 200px;
       position: absolute;
