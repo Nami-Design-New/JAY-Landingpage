@@ -525,6 +525,28 @@ a {
       }
     }
   }
+  .faq {
+    padding: 60px 0;
+    h3 {
+      color: $black-color;
+      font-family: $font-bold;
+      margin-bottom: 32px;
+      font-size: 28px;
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+    }
+    .img {
+      width: 100%;
+      @media (max-width: 768px) {
+        @include centerFlex();
+        margin-bottom: 40px;
+      }
+      img {
+        max-width: 75%;
+      }
+    }
+  }
   .contact-us {
     padding: 60px 0;
     position: relative;
@@ -701,4 +723,43 @@ footer {
       }
     }
   }
+}
+.accordion-button {
+  text-align: inherit;
+}
+.accordion-button,
+.accordion-body {
+  padding: 16px 0 !important;
+}
+.accordion-button:not(.collapsed) {
+  background: none !important;
+}
+.accordion-button::after {
+  margin-right: auto !important;
+  margin-left: initial;
+}
+.accordion-button:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.accordion-item {
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 1px solid #d7d7d7 !important;
+  border-radius: 0 !important;
+  p {
+    font-size: 14px;
+  }
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+.accordion-button {
+  font-size: 14px !important;
+  font-weight: 600;
+}
+.accordion-button:not(.collapsed) {
+  color: $main-color;
 }
