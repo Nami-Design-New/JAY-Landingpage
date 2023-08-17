@@ -392,14 +392,13 @@ a {
       }
     }
     .circle {
-      min-width: 500px;
-      min-height: 500px;
+     width: 500px;
+      aspect-ratio: 1/1;
       background: $main-color;
       border-radius: 50%;
       position: relative;
       @media (max-width: 450px) {
-        min-width: 350px;
-        min-height: 350px;
+      width: 350px;
       }
       .img1 {
         position: absolute;

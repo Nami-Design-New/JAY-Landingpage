@@ -384,16 +384,15 @@ a {
   line-height: 24px;
 }
 .content .how .circle {
-  min-width: 500px;
-  min-height: 500px;
+  width: 500px;
+  aspect-ratio: 1/1;
   background: #ddb039;
   border-radius: 50%;
   position: relative;
 }
 @media (max-width: 450px) {
   .content .how .circle {
-    min-width: 350px;
-    min-height: 350px;
+    width: 350px;
   }
 }
 .content .how .circle .img1 {
